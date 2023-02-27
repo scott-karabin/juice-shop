@@ -1,0 +1,7 @@
+# Snyk (https://snyk.io) policy file
+#exclude:
+# global:
+#   - todolist-web-struts/** 
+policies:
+   - if: ['NoHardcodedCredentials','NoHardcodedPasswords']
+     then: low-severity
